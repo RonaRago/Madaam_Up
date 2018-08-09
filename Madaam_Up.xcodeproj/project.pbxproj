@@ -12,6 +12,7 @@
 		04E2E721211CA74700033D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E71F211CA74700033D0A /* Main.storyboard */; };
 		04E2E723211CA74A00033D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E722211CA74A00033D0A /* Assets.xcassets */; };
 		04E2E726211CA74A00033D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E724211CA74A00033D0A /* LaunchScreen.storyboard */; };
+		04E2E72E211CA88F00033D0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E72D211CA88F00033D0A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04E2E722211CA74A00033D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E2E725211CA74A00033D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E2E727211CA74A00033D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E2E72D211CA88F00033D0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				04E2E722211CA74A00033D0A /* Assets.xcassets */,
 				04E2E724211CA74A00033D0A /* LaunchScreen.storyboard */,
 				04E2E727211CA74A00033D0A /* Info.plist */,
+				04E2E72D211CA88F00033D0A /* GoogleService-Info.plist */,
 			);
 			path = Madaam_Up;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E2E726211CA74A00033D0A /* LaunchScreen.storyboard in Resources */,
+				04E2E72E211CA88F00033D0A /* GoogleService-Info.plist in Resources */,
 				04E2E723211CA74A00033D0A /* Assets.xcassets in Resources */,
 				04E2E721211CA74700033D0A /* Main.storyboard in Resources */,
 			);
