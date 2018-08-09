@@ -1,0 +1,6 @@
+framework module Pods_Madaam_Up {
+  umbrella header "Pods-Madaam_Up-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,5 +6,8 @@ target 'Madaam_Up' do
   use_frameworks!
 
   # Pods for Madaam_Up
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+
 
 end
