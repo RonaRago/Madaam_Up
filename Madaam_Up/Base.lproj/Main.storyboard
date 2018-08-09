@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="822" y="124"/>
         </scene>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="uY7-jH-Ua2">
             <objects>
-                <viewController id="6Fl-eQ-cZa" sceneMemberID="viewController">
+                <viewController id="6Fl-eQ-cZa" customClass="VCLogin" customModule="Madaam_Up" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pgi-4Y-HDZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,9 @@
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnLogin:" destination="6Fl-eQ-cZa" eventType="touchUpInside" id="Hvn-oU-x6Y"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mni-6D-5nW">
                                 <rect key="frame" x="69" y="289" width="236" height="30"/>
@@ -142,6 +145,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="w9x-wf-w0K"/>
                     </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="Mni-6D-5nW" id="w01-As-Qcf"/>
+                        <outlet property="txtPassword" destination="Dwz-pI-to8" id="gY8-hQ-bId"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ryn-MR-So0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -269,7 +276,7 @@
         <image name="mainlogo" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Prr-2G-nnY"/>
+        <segue reference="VP0-zu-PJf"/>
         <segue reference="Tiu-7l-66N"/>
     </inferredMetricsTieBreakers>
 </document>

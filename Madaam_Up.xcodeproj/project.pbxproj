@@ -14,6 +14,7 @@
 		04E2E726211CA74A00033D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E724211CA74A00033D0A /* LaunchScreen.storyboard */; };
 		04E2E72E211CA88F00033D0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E2E72D211CA88F00033D0A /* GoogleService-Info.plist */; };
 		04E2E730211CB10800033D0A /* VCSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2E72F211CB10800033D0A /* VCSignUp.swift */; };
+		04E2E732211CB6D700033D0A /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2E731211CB6D700033D0A /* VCLogin.swift */; };
 		5426AE80183F085DBF5998D4 /* Pods_Madaam_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC3244D6CA0328EF0449B0 /* Pods_Madaam_Up.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		04E2E727211CA74A00033D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E2E72D211CA88F00033D0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04E2E72F211CB10800033D0A /* VCSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSignUp.swift; sourceTree = "<group>"; };
+		04E2E731211CB6D700033D0A /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
 		3C47028671D5C6027C25266B /* Pods-Madaam_Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Madaam_Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Madaam_Up/Pods-Madaam_Up.debug.xcconfig"; sourceTree = "<group>"; };
 		4CEC3244D6CA0328EF0449B0 /* Pods_Madaam_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Madaam_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		821EDC63EB8382E027AE5B70 /* Pods-Madaam_Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Madaam_Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Madaam_Up/Pods-Madaam_Up.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				04E2E71D211CA74700033D0A /* ViewController.swift */,
 				04E2E71F211CA74700033D0A /* Main.storyboard */,
 				04E2E72F211CB10800033D0A /* VCSignUp.swift */,
+				04E2E731211CB6D700033D0A /* VCLogin.swift */,
 				04E2E722211CA74A00033D0A /* Assets.xcassets */,
 				04E2E724211CA74A00033D0A /* LaunchScreen.storyboard */,
 				04E2E727211CA74A00033D0A /* Info.plist */,
@@ -213,6 +216,7 @@
 			files = (
 				04E2E730211CB10800033D0A /* VCSignUp.swift in Sources */,
 				04E2E71E211CA74700033D0A /* ViewController.swift in Sources */,
+				04E2E732211CB6D700033D0A /* VCLogin.swift in Sources */,
 				04E2E71C211CA74700033D0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
