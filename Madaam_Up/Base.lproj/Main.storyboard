@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="123.68815592203899"/>
+            <point key="canvasLocation" x="822" y="124"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uY7-jH-Ua2">
@@ -147,10 +147,10 @@
             </objects>
             <point key="canvasLocation" x="1824.8" y="510.49475262368821"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up-->
         <scene sceneID="Ffu-Pe-gvw">
             <objects>
-                <viewController id="KTJ-9E-pYK" sceneMemberID="viewController">
+                <viewController id="KTJ-9E-pYK" customClass="VCSignUp" customModule="Madaam_Up" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5bo-Jc-tok">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,6 +167,9 @@
                                 <state key="normal" title="SIGN UP">
                                     <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSignup:" destination="KTJ-9E-pYK" eventType="touchUpInside" id="Oe3-Yh-alj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upload Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgZ-Ne-B5P">
                                 <rect key="frame" x="84" y="276" width="208" height="41"/>
@@ -230,6 +233,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xsP-fJ-m5K"/>
                     </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="tKl-nu-OmW" id="cTs-oQ-acf"/>
+                        <outlet property="txtFname" destination="A3g-Ia-15e" id="1zM-gE-oRl"/>
+                        <outlet property="txtLname" destination="gRa-ax-uPI" id="aLz-79-QWe"/>
+                        <outlet property="txtPassword" destination="EVM-Eu-HA0" id="ef0-3e-uug"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IBp-LI-t9u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,6 +270,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Prr-2G-nnY"/>
-        <segue reference="ZQu-97-K5T"/>
+        <segue reference="Tiu-7l-66N"/>
     </inferredMetricsTieBreakers>
 </document>
