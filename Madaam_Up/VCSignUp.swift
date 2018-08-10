@@ -37,12 +37,19 @@ class VCSignUp: UIViewController {
                     {print(firebaseError.localizedDescription)
                         return
                     }
-                    //self.presentLoggedInScreen()
-                    print("Success!")
+                    self.presentFeedScreen()
+                    //print("Success!")
             })
         }
     }
     
+    func presentFeedScreen(){
+        print("present logged in Screen")
+        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let welcome :Home = storyboard.instantiateViewController(withIdentifier:
+            "Home") as! Home
+        self.present(welcome, animated: true, completion: nil)
+    }
 }
 
     
