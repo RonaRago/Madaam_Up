@@ -7,10 +7,16 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseAuth
 
 class VCSignUp: UIViewController {
 
+    //variables
+    
+    
+    
+    
     //connection of Signup textfields
     @IBOutlet weak var txtFname: UITextField!
     @IBOutlet weak var txtLname: UITextField!
