@@ -29,7 +29,7 @@ class VCSignUp: UIViewController {
     }
     
     @IBAction func btnSignup(_ sender: Any) {
-        if let fname = txtFname.text, let lname = txtLname.text, let email = txtEmail.text, let password = txtPassword.text
+        if let _ = txtFname.text, let _ = txtLname.text, let email = txtEmail.text, let password = txtPassword.text
         {
             Auth.auth().createUser(withEmail: email, password: password, completion:
             { user ,error in
@@ -37,19 +37,19 @@ class VCSignUp: UIViewController {
                     {print(firebaseError.localizedDescription)
                         return
                     }
-                    self.presentFeedScreen()
-                    //print("Success!")
+                    //self.presentFeedScreen()
+                    print("Success!")
             })
         }
     }
     
-    func presentFeedScreen(){
-        print("present logged in Screen")
-        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let welcome :Home = storyboard.instantiateViewController(withIdentifier:
-            "Home") as! Home
-        self.present(welcome, animated: true, completion: nil)
-    }
+//    func presentFeedScreen(){
+//        print("present logged in Screen")
+//        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let welcome :Home = storyboard.instantiateViewController(withIdentifier:
+//            "Home") as! Home
+//        self.present(welcome, animated: true, completion: nil)
+//    }
 }
 
     
